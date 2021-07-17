@@ -1,0 +1,5 @@
+Spring MVC Application creation steps
+
+1. Configure dispatcher servlet in web.xml
+2. Create Spring Configuration file
+3. Configure view resolver

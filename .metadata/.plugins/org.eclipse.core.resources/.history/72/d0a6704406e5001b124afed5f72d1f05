@@ -1,0 +1,15 @@
+package com.spring.mvc.SpringAnno;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Samsung s7=new Samsung();
+        s7.config();
+    }
+}

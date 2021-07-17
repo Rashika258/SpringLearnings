@@ -1,0 +1,6 @@
+package com.springmvc;
+
+@Configuration
+public class SpringConfig {
+
+}

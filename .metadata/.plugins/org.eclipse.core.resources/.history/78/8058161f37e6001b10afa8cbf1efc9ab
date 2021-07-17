@@ -1,0 +1,14 @@
+package com.example.repo;
+
+import com.example.demo.model.Student;
+
+public class StudentRepoImplement implements StudentRepo {
+	
+	List<Student> li=
+	@Override
+	public Student addStudents(Student s1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

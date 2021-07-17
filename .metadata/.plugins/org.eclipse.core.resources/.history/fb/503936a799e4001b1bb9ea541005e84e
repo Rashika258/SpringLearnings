@@ -1,0 +1,6 @@
+package com.springmvc.model;
+
+public class Student {
+	int uid;
+	
+}

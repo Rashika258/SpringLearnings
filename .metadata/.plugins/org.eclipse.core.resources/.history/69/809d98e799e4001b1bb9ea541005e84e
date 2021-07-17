@@ -1,0 +1,5 @@
+package com.spring.mvc.controller;
+@Co
+public class StudentController {
+
+}

@@ -1,0 +1,26 @@
+package com.example.repo;
+
+import java.util.List;
+import java.util.ArrayList;
+import com.example.demo.model.Student;
+
+public class StudentRepoImplement implements StudentRepo {
+	
+	List<Student> li=new ArrayList<>();
+	Student s1=new Student(12, "rashika");
+	
+	li.add(s1);
+	li.add(new Student(13, "rashmika"));
+	public StudentRepoImplement(List<Student> li, Student s1) {
+		super();
+		this.li = li;
+		this.s1 = s1;
+	}
+
+	@Override
+	public Student addStudents(Student s1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

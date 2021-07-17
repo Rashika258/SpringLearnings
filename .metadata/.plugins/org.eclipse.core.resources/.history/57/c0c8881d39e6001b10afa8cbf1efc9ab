@@ -1,0 +1,8 @@
+package com.example.repo;
+
+import com.example.demo.model.Student;
+
+public interface StudentRepo {
+	public Student addStudents(Student s1);
+	public List<Student> getStudents();
+}

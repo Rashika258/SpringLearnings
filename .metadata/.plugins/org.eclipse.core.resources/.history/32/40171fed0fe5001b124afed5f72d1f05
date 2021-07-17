@@ -1,0 +1,7 @@
+package com.example.demo;
+
+public class Alien {
+	int aid;
+	String aname;
+	String a
+}

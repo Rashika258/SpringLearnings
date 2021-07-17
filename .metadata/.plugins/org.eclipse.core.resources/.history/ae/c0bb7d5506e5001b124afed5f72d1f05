@@ -1,0 +1,18 @@
+package com.spring.mvc.SpringAnno;
+
+import org.springframework.context.ApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        ApplicationContext factory=new Ann
+        Samsung s7=new Samsung();
+        s7.config();
+    }
+}

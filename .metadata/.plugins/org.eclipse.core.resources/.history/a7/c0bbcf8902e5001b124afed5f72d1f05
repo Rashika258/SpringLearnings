@@ -1,0 +1,5 @@
+package com.spring.mvc.demo;
+
+public class Tyre {
+	private String bran
+}
