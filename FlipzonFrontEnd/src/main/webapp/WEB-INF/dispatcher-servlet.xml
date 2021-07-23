@@ -1,0 +1,27 @@
+<!-- We need to create a dispatcher-servlet file for creating the bean to 
+	resolve the view for every mapping and we are scanning the package where 
+	other controllers could be found. NOTE: The name of the file will be the 
+	servlet_name-servlet.xml as per the convention else we have to do additional 
+	configuration that will be shown later. -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- context is added to let the other dispatcher servlet know where the 
+		other front controllers are -->
+	<context:component-scan
+		base-package="com.springmvc.flipzonfrontend.controller"></context:component-scan>
+
+	<!--Configure the ViewResolver inside the dispatcher-servlet to map the 
+		logical name to the actual physical filename. -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/views/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+</beans>

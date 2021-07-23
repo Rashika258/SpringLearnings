@@ -1,7 +1,0 @@
-package com.spring.mvc.SpringAnno;
-
-public class Samsung {
-	public void config() {
-		System.out.println();
-	}
-}

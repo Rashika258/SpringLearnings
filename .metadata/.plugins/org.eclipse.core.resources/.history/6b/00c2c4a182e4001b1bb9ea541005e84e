@@ -1,9 +1,0 @@
-package com.springmvc;
-
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-@Component
-public class SpringConfig {
-
-}

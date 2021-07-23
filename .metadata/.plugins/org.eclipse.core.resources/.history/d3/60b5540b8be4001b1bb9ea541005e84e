@@ -1,8 +1,0 @@
-package com.springmvc;
-
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-
-@Enabled
-public class MvcConfig extends WebMvcConfigurerAdapter {
-
-}

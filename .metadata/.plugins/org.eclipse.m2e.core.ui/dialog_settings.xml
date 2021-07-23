@@ -6,6 +6,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Rashika\Workspaces\SpringWorkspace\FlipzonFrontEnd"/>
+			<item value="D:\Rashika\Workspaces\New folder\online-shopping\onlineshopping"/>
 			<item value="D:\SpringWorkspace\SpringDemo\pom.xml"/>
 			<item value="D:\SpringWorkspace\SpringMvc"/>
 		</list>
@@ -31,23 +33,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.spring.mvc.SpringAnno"/>
-			<item value="com.spring.mvc.SpringMvcAnnotation"/>
-			<item value="com.spring.mvc.SpringDemo"/>
-			<item value="com.spring.mvc.SpringMvcJava"/>
-			<item value="com.spring.mvc.SpringMvc"/>
-			<item value="com.spring.mvc.DemoMvc"/>
+			<item value="com.springmvc.demo.FlipzonBackEnd"/>
+			<item value="com.springmvc.demo.FlipzonFrontEnd"/>
 		</list>
 		<list key="groupId">
-			<item value="com.spring.mvc"/>
+			<item value="com.springmvc.demo"/>
 		</list>
 		<list key="artifactId">
-			<item value="SpringAnno"/>
-			<item value="SpringMvcAnnotation"/>
-			<item value="SpringDemo"/>
-			<item value="SpringMvcJava"/>
-			<item value="SpringMvc"/>
-			<item value="DemoMvc"/>
+			<item value="FlipzonBackEnd"/>
+			<item value="FlipzonFrontEnd"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
