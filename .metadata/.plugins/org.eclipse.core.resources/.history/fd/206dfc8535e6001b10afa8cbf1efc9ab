@@ -1,7 +1,0 @@
-package com.example.repo;
-
-public interface StudentRepo {
-	public Student addStudent(Student s1) {
-	}
-	}
-}

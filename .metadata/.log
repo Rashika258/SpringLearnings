@@ -1,4 +1,4 @@
-!SESSION 2021-07-22 17:09:57.259 -----------------------------------------------
+!SESSION 2021-07-23 17:45:10.147 -----------------------------------------------
 eclipse.buildId=4.11.0.202106180608
 java.version=16.0.1
 java.vendor=Oracle Corporation
@@ -6,952 +6,196 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-This is a continuation of log file D:\Rashika\Workspaces\SpringWorkspace\.metadata\.bak_0.log
-Created Time: 2021-07-22 19:16:25.974
+This is a continuation of log file D:\Rashika\Workspaces\SpringWorkspace\.metadata\.bak_2.log
+Created Time: 2021-07-23 21:44:25.270
 
-!ENTRY Activator 1 0 2021-07-22 19:16:25.975
-!MESSAGE Has main method computation for project 'SpringDB-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:25.270
+!MESSAGE Entering DelegatingStreamConnectionProvider()
 
-!ENTRY Activator 1 0 2021-07-22 19:16:25.975
-!MESSAGE Has main method computation for project 'SpringDB1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:25.271
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@419df81e[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
 
-!ENTRY Activator 1 0 2021-07-22 19:16:25.978
-!MESSAGE Has main method computation for project 'SpringWebApp'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:25.336
+!MESSAGE SpringBootLanguageServer exists!
 
-!ENTRY Activator 1 0 2021-07-22 19:16:25.978
-!MESSAGE Has main method computation for project 'SpringDB'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.517
+!MESSAGE Boot LS startup time from start to initialized: 2180ms
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:16:27.522
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.718
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SCYKnqQAisBatched = true
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:16:27.525
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.720
+!MESSAGE Setting up ClasspathListenerManager
 
-!ENTRY Activator 1 0 2021-07-22 19:16:27.535
-!MESSAGE Has main method computation for project 'demo-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.721
+!MESSAGE Scheduling initial event for all projects ...
 
-!ENTRY Activator 1 0 2021-07-22 19:16:27.536
-!MESSAGE Has main method computation for project 'SpringDB-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.722
+!MESSAGE Scheduling initial event for all projects DONE
 
-!ENTRY Activator 1 0 2021-07-22 19:16:27.536
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:27.537
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:27.537
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:27.537
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:27.538
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:27.541
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.627
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.628
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.628
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.628
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.629
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.630
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.630
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:28.630
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.259
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.259
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.259
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.260
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.260
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.261
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.262
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.262
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:31.331
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.722
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:31.336
-!MESSAGE classpath=48 entries
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.722
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SCYKnqQA => OK
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:31.341
-!MESSAGE buffering callback sts4.classpath.YACraTzs FlipzonBackEnd false 48
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:31.341
-!MESSAGE executing callback sts4.classpath.YACraTzs 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:31.389
-!MESSAGE executing callback sts4.classpath.YACraTzs SUCCESS [done]
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.556
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.564
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.572
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.578
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.579
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.628
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.638
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:31.651
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY org.eclipse.jdt.core 4 1006 2021-07-22 19:16:32.378
-!MESSAGE C:\Users\Rashika\.m2\repository\org\springframework\spring-context\5.3.5\spring-context-5.3.5.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2021-07-22 19:16:32.380
-!MESSAGE C:\Users\Rashika\.m2\repository\org\springframework\spring-context\5.3.5\spring-context-5.3.5.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2021-07-22 19:16:32.381
-!MESSAGE C:\Users\Rashika\.m2\repository\org\springframework\spring-context\5.3.5\spring-context-5.3.5.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2021-07-22 19:16:32.381
-!MESSAGE C:\Users\Rashika\.m2\repository\org\springframework\spring-context\5.3.5\spring-context-5.3.5.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2021-07-22 19:16:32.382
-!MESSAGE C:\Users\Rashika\.m2\repository\org\springframework\spring-context\5.3.5\spring-context-5.3.5.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2021-07-22 19:16:32.383
-!MESSAGE C:\Users\Rashika\.m2\repository\org\springframework\spring-context\5.3.5\spring-context-5.3.5.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.core 4 1006 2021-07-22 19:16:32.384
-!MESSAGE C:\Users\Rashika\.m2\repository\org\springframework\spring-context\5.3.5\spring-context-5.3.5.jar is not on its project's build path
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.305
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.306
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.306
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.307
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.307
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.307
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.308
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.309
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:33.376
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:33.385
-!MESSAGE classpath=98 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:33.394
-!MESSAGE buffering callback sts4.classpath.YACraTzs FlipzonFrontEnd false 98
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:33.395
-!MESSAGE executing callback sts4.classpath.YACraTzs 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:16:33.464
-!MESSAGE executing callback sts4.classpath.YACraTzs SUCCESS [done]
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.597
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.601
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.627
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.648
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.649
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.651
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.669
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:33.681
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:16:35.700
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:16:35.702
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.898
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.899
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.899
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.899
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.901
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.905
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.906
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.907
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:35.983
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:16:36.033
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-07-22 19:16:42.114
-!MESSAGE Could not download sources for org.springframework:spring-core:5.35
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-core:jar:sources:5.35
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Contains: Missing org.springframework:spring-core:jar:sources:5.35
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-07-22 19:16:42.140
-!MESSAGE Could not resolve artifact org.springframework:spring-core:jar:sources:5.35
-!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-07-22 19:16:42.141
-!MESSAGE Missing org.springframework:spring-core:jar:sources:5.35
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-07-22 19:16:57.724
-!MESSAGE Could not download sources for org.springframework:spring-webmvc:5.35
-!STACK 1
-org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-webmvc:jar:sources:5.35
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
-	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Contains: Missing org.springframework:spring-webmvc:jar:sources:5.35
-!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-07-22 19:16:57.724
-!MESSAGE Could not resolve artifact org.springframework:spring-webmvc:jar:sources:5.35
-!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-07-22 19:16:57.724
-!MESSAGE Missing org.springframework:spring-webmvc:jar:sources:5.35
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.008
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.009
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.009
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.010
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.010
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.011
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.012
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.013
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.054
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.056
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.161
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.162
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.164
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.167
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.169
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:24.176
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.945
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.946
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.947
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.948
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.948
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.951
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.952
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:33.955
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.401
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.402
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.402
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.403
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.403
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.404
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.405
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:37.406
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.693
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.693
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.694
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.694
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.694
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.695
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.696
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.698
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.766
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.769
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.771
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.792
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.803
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.812
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.823
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:40.840
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.322
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.323
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.324
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.324
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.325
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.325
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.329
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.330
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.408
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.411
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.424
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.437
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.445
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.476
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.529
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:42.572
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.985
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.986
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.987
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.988
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.991
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.991
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.993
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:43.994
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.061
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.068
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.074
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.081
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.091
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.100
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.133
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:44.158
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.246
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.247
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.247
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.247
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.248
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.249
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.249
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.250
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.324
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.331
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.341
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.352
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.411
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.430
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.436
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:47.469
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.180
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.181
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.181
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.182
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.182
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.185
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.185
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.186
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.270
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.273
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.275
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.295
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.296
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.305
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.315
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:49.335
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.260
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.261
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.261
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.262
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.262
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.266
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.266
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.270
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.667
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.671
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.711
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.718
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.747
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.749
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.767
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:51.773
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.122
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.124
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.724
 !MESSAGE classpath=47 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.127
-!MESSAGE buffering callback sts4.classpath.YACraTzs DemoMvc false 47
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.727
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA DemoMvc false 47
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.128
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.728
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.133
-!MESSAGE classpath=48 entries
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.138
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.138
-!MESSAGE buffering callback sts4.classpath.YACraTzs FlipzonBackEnd false 48
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.139
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.143
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.143
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.150
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.150
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.151
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.151
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:17:58.152
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.154
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.732
 !MESSAGE classpath=98 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.179
-!MESSAGE buffering callback sts4.classpath.YACraTzs FlipzonFrontEnd false 98
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.737
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA FlipzonFrontEnd false 98
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.226
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.737
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.230
-!MESSAGE classpath=16 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.232
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringAnno false 16
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.254
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.285
-!MESSAGE classpath=102 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.297
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringBootJPA false 102
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.297
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.327
-!MESSAGE classpath=131 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.339
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringDB false 131
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.340
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.362
-!MESSAGE classpath=121 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.375
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringDB-1 false 121
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.376
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.397
-!MESSAGE classpath=92 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.411
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringDB1 false 92
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.412
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.414
-!MESSAGE classpath=12 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.415
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringDemo false 12
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.415
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.416
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.738
 !MESSAGE classpath=36 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.418
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringMvc false 36
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.739
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringMvc false 36
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.418
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.740
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.420
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.741
 !MESSAGE classpath=44 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.422
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringMvcJava false 44
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.743
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringMvcJava false 44
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.423
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.743
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.432
-!MESSAGE classpath=76 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.456
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringWebApp false 76
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.458
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.497
-!MESSAGE classpath=76 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.517
-!MESSAGE buffering callback sts4.classpath.YACraTzs SpringWebAppModelAndView false 76
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.518
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.528
-!MESSAGE classpath=52 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.534
-!MESSAGE buffering callback sts4.classpath.YACraTzs demo false 52
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.536
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.555
-!MESSAGE classpath=52 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.621
-!MESSAGE buffering callback sts4.classpath.YACraTzs demo-1 false 52
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.622
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.628
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.752
 !MESSAGE classpath=69 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.635
-!MESSAGE buffering callback sts4.classpath.YACraTzs onlineshopping false 69
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.766
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA onlineshopping false 69
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.636
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.766
 !MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.643
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.772
 !MESSAGE classpath=48 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.650
-!MESSAGE buffering callback sts4.classpath.YACraTzs shoppingbackend false 48
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.777
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA FlipzonBackEnd false 48
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:17:58.651
-!MESSAGE executing callback sts4.classpath.YACraTzs 17 batched events
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.778
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:17:58.799
-!MESSAGE Has main method computation for project 'demo'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.781
+!MESSAGE classpath=16 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.360
-!MESSAGE Has main method computation for project 'demo'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.783
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringAnno false 16
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.361
-!MESSAGE Has main method computation for project 'demo-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.783
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.362
-!MESSAGE Has main method computation for project 'SpringDB'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.798
+!MESSAGE classpath=102 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.378
-!MESSAGE Has main method computation for project 'SpringBootJPA'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.809
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringBootJPA false 102
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.379
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.810
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.383
-!MESSAGE Has main method computation for project 'SpringWebApp'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.824
+!MESSAGE classpath=131 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.384
-!MESSAGE Has main method computation for project 'SpringDB1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.838
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringDB false 131
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.453
-!MESSAGE Has main method computation for project 'SpringDB-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.839
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.493
-!MESSAGE Has main method computation for project 'demo'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.851
+!MESSAGE classpath=121 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.499
-!MESSAGE Has main method computation for project 'demo-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.863
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringDB-1 false 121
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.508
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.864
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.544
-!MESSAGE Has main method computation for project 'SpringWebApp'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.877
+!MESSAGE classpath=92 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.583
-!MESSAGE Has main method computation for project 'SpringDB'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.887
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringDB1 false 92
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.584
-!MESSAGE Has main method computation for project 'SpringDB1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.888
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.598
-!MESSAGE Has main method computation for project 'SpringDB-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.891
+!MESSAGE classpath=12 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.606
-!MESSAGE Has main method computation for project 'SpringBootJPA'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.892
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringDemo false 12
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.626
-!MESSAGE Has main method computation for project 'demo'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.893
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.626
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.904
+!MESSAGE classpath=76 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.627
-!MESSAGE Has main method computation for project 'demo-1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.912
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringWebApp false 76
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.667
-!MESSAGE Has main method computation for project 'SpringWebApp'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.913
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.667
-!MESSAGE Has main method computation for project 'SpringDB1'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.924
+!MESSAGE classpath=76 entries
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.683
-!MESSAGE Has main method computation for project 'SpringDB'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.933
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA SpringWebAppModelAndView false 76
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.685
-!MESSAGE Has main method computation for project 'SpringBootJPA'
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.934
+!MESSAGE exists = true open = true => deleted = false
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:18:00.686
-!MESSAGE executing callback sts4.classpath.YACraTzs FAILED
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.941
+!MESSAGE classpath=52 entries
 
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-22 19:18:00.686
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.946
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA demo false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.947
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.953
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.961
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA demo-1 false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.961
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.966
+!MESSAGE classpath=48 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.971
+!MESSAGE buffering callback sts4.classpath.SCYKnqQA shoppingbackend false 48
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:27.971
+!MESSAGE executing callback sts4.classpath.SCYKnqQA 17 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:44:30.000
+!MESSAGE executing callback sts4.classpath.SCYKnqQA FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-23 21:44:30.000
 !MESSAGE 
 !STACK 0
 java.util.concurrent.TimeoutException
@@ -962,959 +206,806 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.703
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.767
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.767
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.767
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.768
+!ENTRY Activator 1 0 2021-07-23 21:44:37.793
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.768
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.782
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.786
+!ENTRY Activator 1 0 2021-07-23 21:44:37.793
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.790
+!ENTRY Activator 1 0 2021-07-23 21:44:37.795
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:37.796
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:37.800
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:37.801
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:37.804
 !MESSAGE Has main method computation for project 'SpringDB'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.861
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.861
+!ENTRY Activator 1 0 2021-07-23 21:44:37.809
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:00.863
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.864
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.864
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.891
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.899
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.983
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.990
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.990
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.992
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.992
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:00.992
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.006
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.014
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.077
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.105
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.106
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.106
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.107
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.107
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.110
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.111
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.210
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.220
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.220
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.221
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.221
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.222
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.222
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.223
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.317
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.318
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.318
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.319
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.319
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.319
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.329
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.332
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.518
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.519
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.520
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.520
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.523
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.524
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.546
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.633
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.635
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.636
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.636
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.637
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.637
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.648
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.745
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.745
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.745
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.746
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.781
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.792
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.804
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.841
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.842
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.843
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.848
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.852
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.906
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.908
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.932
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.974
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.975
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.976
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.976
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.977
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.992
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:01.995
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.086
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.087
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.087
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.087
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.088
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.088
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.211
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.231
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.263
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.264
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.325
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.326
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.348
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.369
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.418
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.447
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.450
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:02.554
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.130
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.131
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.136
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.136
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.136
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.137
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.138
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:03.146
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:06.697
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:44:37.969
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:06.701
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:44:37.971
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:06.706
+!ENTRY Activator 1 0 2021-07-23 21:44:38.056
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:38.056
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:38.058
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:38.065
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:38.065
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:38.065
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:38.066
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:38.171
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.954
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.954
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.955
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.955
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.956
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.957
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.958
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:39.961
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:44:40.129
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:07.604
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:44:40.131
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:07.606
+!ENTRY Activator 1 0 2021-07-23 21:44:40.232
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:40.233
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:40.233
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:40.233
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:40.234
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:40.236
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:40.237
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:40.237
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.190
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.190
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.190
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.191
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.191
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.193
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.193
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.194
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:44:59.317
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:07.610
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:44:59.318
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:18:07.960
+!ENTRY Activator 1 0 2021-07-23 21:44:59.361
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:07.960
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:07.961
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:07.969
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:07.969
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:07.970
+!ENTRY Activator 1 0 2021-07-23 21:44:59.361
 !MESSAGE Has main method computation for project 'SpringDB'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:07.973
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:07.975
+!ENTRY Activator 1 0 2021-07-23 21:44:59.361
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:08.038
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:08.050
+!ENTRY Activator 1 0 2021-07-23 21:44:59.362
 !MESSAGE Has main method computation for project 'SpringWebApp'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:08.051
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:08.075
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:08.079
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:08.130
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:08.135
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:08.168
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:09.541
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:09.543
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:09.543
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:09.543
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:09.544
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:09.546
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:09.546
+!ENTRY Activator 1 0 2021-07-23 21:44:59.362
 !MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:09.548
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.461
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.461
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.462
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.462
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.469
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.469
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.470
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:11.472
+!ENTRY Activator 1 0 2021-07-23 21:44:59.365
 !MESSAGE Has main method computation for project 'SpringBootJPA'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:11.704
+!ENTRY Activator 1 0 2021-07-23 21:44:59.369
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:44:59.370
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.395
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:11.707
+!ENTRY Activator 1 0 2021-07-23 21:45:03.396
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.396
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.396
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.401
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.402
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.402
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.402
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:11.720
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:03.530
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:11.724
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:03.530
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:11.730
+!ENTRY Activator 1 0 2021-07-23 21:45:03.568
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.568
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.569
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.569
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.570
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.571
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.571
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:03.572
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.559
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.559
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.559
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.559
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.560
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.560
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.560
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.561
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:08.685
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:18:11.737
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:12.578
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:08.686
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:12.580
+!ENTRY Activator 1 0 2021-07-23 21:45:08.720
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.721
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.721
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.721
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.722
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.722
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.722
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:08.725
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.176
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.176
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.176
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.176
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.176
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.177
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.178
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.178
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:10.756
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:12.588
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:10.758
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:18:14.791
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.792
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.792
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.792
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.793
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.793
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.794
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.794
+!ENTRY Activator 1 0 2021-07-23 21:45:10.819
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:14.870
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.904
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.905
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.920
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.929
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.935
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:14.962
+!ENTRY Activator 1 0 2021-07-23 21:45:10.820
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:14.975
+!ENTRY Activator 1 0 2021-07-23 21:45:10.820
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.821
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.821
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.821
 !MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:15.998
+!ENTRY Activator 1 0 2021-07-23 21:45:10.821
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:10.822
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.636
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.637
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.637
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.638
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.640
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.643
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.644
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.645
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:13.811
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:16.006
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:13.812
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-22 19:18:16.013
+!ENTRY Activator 1 0 2021-07-23 21:45:13.883
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.883
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.884
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.885
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.885
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.886
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.886
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:13.887
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.721
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.722
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.723
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.723
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.724
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.724
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.724
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.741
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:20.899
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.395
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:20.901
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.953
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.395
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.395
+!ENTRY Activator 1 0 2021-07-23 21:45:20.953
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.396
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.403
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.415
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.420
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.422
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.491
+!ENTRY Activator 1 0 2021-07-23 21:45:20.954
 !MESSAGE Has main method computation for project 'SpringDB1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.493
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+!ENTRY Activator 1 0 2021-07-23 21:45:20.954
+!MESSAGE Has main method computation for project 'SpringBootJPA'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.498
+!ENTRY Activator 1 0 2021-07-23 21:45:20.954
 !MESSAGE Has main method computation for project 'SpringWebApp'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.499
+!ENTRY Activator 1 0 2021-07-23 21:45:20.954
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:20.955
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.531
+!ENTRY Activator 1 0 2021-07-23 21:45:20.956
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:22.352
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:16.558
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.587
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:16.651
+!ENTRY Activator 1 0 2021-07-23 21:45:22.352
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:18.157
-!MESSAGE Has main method computation for project 'SpringDB'
+!ENTRY Activator 1 0 2021-07-23 21:45:22.353
+!MESSAGE Has main method computation for project 'SpringBootJPA'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:18.157
+!ENTRY Activator 1 0 2021-07-23 21:45:22.353
 !MESSAGE Has main method computation for project 'SpringDB1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:18.158
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:18.158
+!ENTRY Activator 1 0 2021-07-23 21:45:22.354
 !MESSAGE Has main method computation for project 'SpringWebApp'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:18.159
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:18.159
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:18.159
+!ENTRY Activator 1 0 2021-07-23 21:45:22.355
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:18.162
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:42.726
+!ENTRY Activator 1 0 2021-07-23 21:45:22.357
 !MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:42.727
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:42.728
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:42.729
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:42.729
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:42.731
+!ENTRY Activator 1 0 2021-07-23 21:45:22.362
 !MESSAGE Has main method computation for project 'SpringDB'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:42.733
-!MESSAGE Has main method computation for project 'SpringWebApp'
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:22.918
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:18:42.735
-!MESSAGE Has main method computation for project 'demo-1'
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:22.919
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:18:52.599
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:52.600
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:52.602
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:52.602
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:52.603
+!ENTRY Activator 1 0 2021-07-23 21:45:22.957
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:52.604
+!ENTRY Activator 1 0 2021-07-23 21:45:22.957
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:52.608
+!ENTRY Activator 1 0 2021-07-23 21:45:22.958
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:22.958
 !MESSAGE Has main method computation for project 'SpringBootJPA'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:52.610
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:54.333
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:54.334
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:54.334
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:54.334
+!ENTRY Activator 1 0 2021-07-23 21:45:22.958
 !MESSAGE Has main method computation for project 'SpringWebApp'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:54.335
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:54.335
+!ENTRY Activator 1 0 2021-07-23 21:45:22.958
 !MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:54.335
+!ENTRY Activator 1 0 2021-07-23 21:45:22.959
 !MESSAGE Has main method computation for project 'SpringDB'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:54.336
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:55.868
+!ENTRY Activator 1 0 2021-07-23 21:45:22.959
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:18:55.868
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:55.869
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:55.869
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:55.870
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:55.875
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:55.876
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:18:55.877
-!MESSAGE Has main method computation for project 'SpringDB'
-!SESSION 2021-07-22 19:25:47.916 -----------------------------------------------
-eclipse.buildId=4.11.0.202106180608
-java.version=16.0.1
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/D:/Rashika/Workspaces/SpringWorkspace/ -product org.springframework.boot.ide.branding.sts4
-
-!ENTRY org.eclipse.jface 2 0 2021-07-22 19:26:34.052
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-22 19:26:34.052
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e210016,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fc40856,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.egit.ui 2 0 2021-07-22 19:27:06.477
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\Rashika'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY Activator 1 0 2021-07-22 19:27:15.899
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:27:15.961
+!ENTRY Activator 1 0 2021-07-23 21:45:26.937
 !MESSAGE Has main method computation for project 'SpringDB'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:16.017
+!ENTRY Activator 1 0 2021-07-23 21:45:26.937
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:16.018
+!ENTRY Activator 1 0 2021-07-23 21:45:26.937
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:26.938
 !MESSAGE Has main method computation for project 'SpringDB1'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:16.105
+!ENTRY Activator 1 0 2021-07-23 21:45:26.940
 !MESSAGE Has main method computation for project 'SpringWebApp'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:16.110
+!ENTRY Activator 1 0 2021-07-23 21:45:26.940
 !MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:16.113
+!ENTRY Activator 1 0 2021-07-23 21:45:26.940
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:16.114
+!ENTRY Activator 1 0 2021-07-23 21:45:26.940
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:21.922
-!MESSAGE Has main method computation for project 'demo-1'
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:27.075
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:27:21.923
-!MESSAGE Has main method computation for project 'SpringWebApp'
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:27.076
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY Activator 1 0 2021-07-22 19:27:21.924
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+!ENTRY Activator 1 0 2021-07-23 21:45:27.107
+!MESSAGE Has main method computation for project 'demo'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:21.926
+!ENTRY Activator 1 0 2021-07-23 21:45:27.108
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:21.927
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:27:21.929
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:27:21.930
+!ENTRY Activator 1 0 2021-07-23 21:45:27.108
 !MESSAGE Has main method computation for project 'SpringBootJPA'
 
-!ENTRY Activator 1 0 2021-07-22 19:27:21.965
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY org.eclipse.ui 2 2 2021-07-22 19:28:33.541
-!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-22 19:30:38.335
-!MESSAGE Instantiating ReusableClasspathListenerHandler
-!SESSION 2021-07-22 19:30:49.611 -----------------------------------------------
-eclipse.buildId=4.11.0.202106180608
-java.version=16.0.1
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data file:/D:/Rashika/Workspaces/SpringWorkspace/ -product org.springframework.boot.ide.branding.sts4
-
-!ENTRY org.eclipse.jface 2 0 2021-07-22 19:30:58.178
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-22 19:30:58.178
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fc5a558,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42fd8f2f,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY Activator 1 0 2021-07-22 19:31:18.258
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:18.327
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:20.532
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY org.eclipse.egit.ui 2 0 2021-07-22 19:31:20.721
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\Rashika'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY Activator 1 0 2021-07-22 19:31:20.741
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:21.195
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:21.362
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:21.363
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:21.524
+!ENTRY Activator 1 0 2021-07-23 21:45:27.115
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:31:28.496
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:28.505
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:28.516
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:28.521
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:28.521
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:28.522
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:28.566
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:31:28.649
+!ENTRY Activator 1 0 2021-07-23 21:45:27.116
 !MESSAGE Has main method computation for project 'SpringDB1'
 
-!ENTRY org.eclipse.ui 2 2 2021-07-22 19:32:47.606
-!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
-!SESSION 2021-07-22 19:32:49.199 -----------------------------------------------
-eclipse.buildId=4.11.0.202106180608
-java.version=16.0.1
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
-Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -data file:/D:/Rashika/Workspaces/SpringWorkspace/ -product org.springframework.boot.ide.branding.sts4
-
-!ENTRY org.eclipse.jface 2 0 2021-07-22 19:32:56.294
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-22 19:32:56.294
-!MESSAGE A conflict occurred for CTRL+SHIFT+T:
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
-		Open a type in a Java editor,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b17759c,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-Binding(CTRL+SHIFT+T,
-	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
-		,
-		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11cdf948,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY Activator 1 0 2021-07-22 19:33:11.002
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:11.041
-!MESSAGE Has main method computation for project 'SpringDB'
-
-!ENTRY org.eclipse.egit.ui 2 0 2021-07-22 19:33:11.056
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\Rashika'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY Activator 1 0 2021-07-22 19:33:11.350
-!MESSAGE Has main method computation for project 'SpringDB-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:11.558
-!MESSAGE Has main method computation for project 'SpringDB1'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:11.891
+!ENTRY Activator 1 0 2021-07-23 21:45:27.118
 !MESSAGE Has main method computation for project 'SpringWebApp'
 
-!ENTRY Activator 1 0 2021-07-22 19:33:12.182
+!ENTRY Activator 1 0 2021-07-23 21:45:27.118
 !MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
 
-!ENTRY Activator 1 0 2021-07-22 19:33:12.183
-!MESSAGE Has main method computation for project 'demo'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:12.202
-!MESSAGE Has main method computation for project 'demo-1'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:17.158
-!MESSAGE Has main method computation for project 'SpringWebApp'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:17.172
-!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:17.178
+!ENTRY Activator 1 0 2021-07-23 21:45:27.119
 !MESSAGE Has main method computation for project 'SpringDB'
 
-!ENTRY Activator 1 0 2021-07-22 19:33:17.179
+!ENTRY Activator 1 0 2021-07-23 21:45:30.120
 !MESSAGE Has main method computation for project 'demo-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:33:17.189
+!ENTRY Activator 1 0 2021-07-23 21:45:30.120
 !MESSAGE Has main method computation for project 'SpringDB-1'
 
-!ENTRY Activator 1 0 2021-07-22 19:33:17.189
-!MESSAGE Has main method computation for project 'SpringBootJPA'
-
-!ENTRY Activator 1 0 2021-07-22 19:33:17.199
+!ENTRY Activator 1 0 2021-07-23 21:45:30.120
 !MESSAGE Has main method computation for project 'SpringDB1'
 
-!ENTRY Activator 1 0 2021-07-22 19:33:17.267
+!ENTRY Activator 1 0 2021-07-23 21:45:30.120
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.120
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.121
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.122
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.122
 !MESSAGE Has main method computation for project 'demo'
 
-!ENTRY org.eclipse.ui 2 2 2021-07-22 19:33:57.214
-!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:30.284
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:30.285
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.347
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.347
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.348
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.348
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.348
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.348
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.350
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:30.351
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.417
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.418
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.418
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.419
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.419
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.420
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.421
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.422
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:32.462
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:45:32.463
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.623
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.624
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.624
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.624
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.628
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.628
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.628
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:45:32.633
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.629
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.629
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.629
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.629
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.630
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.630
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.631
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:47:22.640
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:47:22.759
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:47:22.760
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.091
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.091
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.092
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.092
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.092
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.092
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.093
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.094
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.135
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.135
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.136
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.146
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.165
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.177
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.177
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:48:50.191
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:48:50.280
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:48:50.281
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.671
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.671
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.671
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.671
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.672
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.672
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.672
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:24.673
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:49:24.813
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:49:24.815
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.177
+!MESSAGE Has main method computation for project 'demo-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.178
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.178
+!MESSAGE Has main method computation for project 'SpringDB-1'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.178
+!MESSAGE Has main method computation for project 'SpringDB1'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.178
+!MESSAGE Has main method computation for project 'SpringBootJPA'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.178
+!MESSAGE Has main method computation for project 'SpringWebApp'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.183
+!MESSAGE Has main method computation for project 'SpringDB'
+
+!ENTRY Activator 1 0 2021-07-23 21:49:30.184
+!MESSAGE Has main method computation for project 'SpringWebAppModelAndView'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:49:30.313
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-07-23 21:49:30.314
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:50:16.183
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SCYKnqQA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:50:16.184
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SCYKnqQA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:50:16.184
+!MESSAGE subsribers = {sts4.classpath.BRqDareD=Send Classpath Notifications(3722), sts4.classpath.PpPSGnhr=Send Classpath Notifications(3356), sts4.classpath.mwMkUrPg=Send Classpath Notifications(3484), sts4.classpath.HTnmzSgW=Send Classpath Notifications(3541), sts4.classpath.aIDkvINT=Send Classpath Notifications(3383), sts4.classpath.ZrZOKcOO=Send Classpath Notifications(3398), sts4.classpath.oeLuGxPW=Send Classpath Notifications(3726), sts4.classpath.lCLPNCDd=Send Classpath Notifications(3412), sts4.classpath.SxSWEiqx=Send Classpath Notifications(3700), sts4.classpath.TFvRfeiD=Send Classpath Notifications(3617), sts4.classpath.mQfqhgkZ=Send Classpath Notifications(3629), sts4.classpath.MJsywEfP=Send Classpath Notifications(3380), sts4.classpath.EegAhTNK=Send Classpath Notifications(3442), sts4.classpath.VmkdKLiS=Send Classpath Notifications(1790), sts4.classpath.FNjlAKLw=Send Classpath Notifications(3532), sts4.classpath.xSphtRLP=Send Classpath Notifications(3363), sts4.classpath.jblNmVHB=Send Classpath Notifications(3316), sts4.classpath.STeEyfjG=Send Classpath Notifications(3643), sts4.classpath.zbGxHdPb=Send Classpath Notifications(3693), sts4.classpath.wXITHFRB=Send Classpath Notifications(1783), sts4.classpath.YvlbwLtz=Send Classpath Notifications(3597), sts4.classpath.XLFhyKkq=Send Classpath Notifications(3544), sts4.classpath.JdmGYPnd=Send Classpath Notifications(3732), sts4.classpath.QZFbSiSx=Send Classpath Notifications(3561), sts4.classpath.IHQCPZxC=Send Classpath Notifications(1778), sts4.classpath.UQmhjOfS=Send Classpath Notifications(3462), sts4.classpath.IcyJIoDU=Send Classpath Notifications(3306), sts4.classpath.kMYRdcAn=Send Classpath Notifications(3377), sts4.classpath.TAjirCcs=Send Classpath Notifications(3474), sts4.classpath.qOCsLAcU=Send Classpath Notifications(3696), sts4.classpath.rmjLveFG=Send Classpath Notifications(1739), sts4.classpath.HfUcwXbp=Send Classpath Notifications(3280), sts4.classpath.rwoGMGUv=Send Classpath Notifications(3707), sts4.classpath.jWrupOXE=Send Classpath Notifications(1321), sts4.classpath.xMVqAkJC=Send Classpath Notifications(3658), sts4.classpath.GCXOzMkV=Send Classpath Notifications(3814), sts4.classpath.xQYNwCJC=Send Classpath Notifications(3729), sts4.classpath.xuNymeWW=Send Classpath Notifications(3287), sts4.classpath.wptjczMf=Send Classpath Notifications(3529), sts4.classpath.FmpIbEyj=Send Classpath Notifications(3366), sts4.classpath.auSVBPHS=Send Classpath Notifications(3369), sts4.classpath.bnmAYUdM=Send Classpath Notifications(3313), sts4.classpath.KjEgkVIl=Send Classpath Notifications(3449), sts4.classpath.uOdNNgyM=Send Classpath Notifications(3788), sts4.classpath.UJRobNDW=Send Classpath Notifications(3337), sts4.classpath.VOhffuVr=Send Classpath Notifications(3455), sts4.classpath.XRzjzsMZ=Send Classpath Notifications(3471), sts4.classpath.QOQojdDd=Send Classpath Notifications(3360), sts4.classpath.SwgrlGup=Send Classpath Notifications(3373), sts4.classpath.ZysHrTFb=Send Classpath Notifications(3465), sts4.classpath.xWltueJi=Send Classpath Notifications(3576), sts4.classpath.ZkHmGoLQ=Send Classpath Notifications(1742), sts4.classpath.hEZDeTZk=Send Classpath Notifications(3766), sts4.classpath.QXWgjDfO=Send Classpath Notifications(3417), sts4.classpath.nYyMLcWE=Send Classpath Notifications(3820), sts4.classpath.mILIBnlX=Send Classpath Notifications(3547), sts4.classpath.adgEyJaT=Send Classpath Notifications(3754), sts4.classpath.BIfCjFkh=Send Classpath Notifications(3626), sts4.classpath.vfqtVDJf=Send Classpath Notifications(3600), sts4.classpath.HoexAPER=Send Classpath Notifications(3783), sts4.classpath.wjUuzvdd=Send Classpath Notifications(1746), sts4.classpath.xXADNFJF=Send Classpath Notifications(3452), sts4.classpath.rmwELDqX=Send Classpath Notifications(3564), sts4.classpath.TMEFDajM=Send Classpath Notifications(3817), sts4.classpath.rMojLHDj=Send Classpath Notifications(1736), sts4.classpath.aCWxpcPB=Send Classpath Notifications(3558), sts4.classpath.ykBwUusI=Send Classpath Notifications(3580), sts4.classpath.YtWStAkN=Send Classpath Notifications(1765), sts4.classpath.kxytLkbs=Send Classpath Notifications(3468), sts4.classpath.qDFzwXnR=Send Classpath Notifications(3555), sts4.classpath.VxkOwdJa=Send Classpath Notifications(3535), sts4.classpath.hXDjOquS=Send Classpath Notifications(3538), sts4.classpath.PTribkzP=Send Classpath Notifications(3646), sts4.classpath.nXEtgIjm=Send Classpath Notifications(3407), sts4.classpath.nasfeZlc=Send Classpath Notifications(3302), sts4.classpath.KOIbTWHN=Send Classpath Notifications(3446), sts4.classpath.VtLMkgWX=Send Classpath Notifications(3309), sts4.classpath.vJdRMDye=Send Classpath Notifications(3710), sts4.classpath.FtqYIrkY=Send Classpath Notifications(3490), sts4.classpath.fZlvRhLM=Send Classpath Notifications(3704), sts4.classpath.ZScKDsxU=Send Classpath Notifications(3550), sts4.classpath.nILnIDhp=Send Classpath Notifications(3458), sts4.classpath.cTeiTbuT=Send Classpath Notifications(3655), sts4.classpath.jvOfdyGz=Send Classpath Notifications(3435), sts4.classpath.rMQvFRtA=Send Classpath Notifications(3612), sts4.classpath.mZzRyLsV=Send Classpath Notifications(3284), sts4.classpath.EvcOXdqI=Send Classpath Notifications(3438), sts4.classpath.CnzhCQNZ=Send Classpath Notifications(3632), sts4.classpath.DgIHyPey=Send Classpath Notifications(3568), sts4.classpath.GteqGzSK=Send Classpath Notifications(3487)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 21:50:16.184
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SCYKnqQA => OK
