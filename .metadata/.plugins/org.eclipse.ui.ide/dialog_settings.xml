@@ -63,6 +63,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\1.Rashika\1.Workspaces\New folder\online-shopping"/>
+			<item value="D:\1.Rashika\Workspaces\New folder\online-shopping"/>
 			<item value="D:\downloads\Adarsh-gupta-spring-major-starter-main\Adarsh-gupta-spring-major-starter-main\major"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

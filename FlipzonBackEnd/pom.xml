@@ -1,16 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.springmvc.demo</groupId>
-  <artifactId>FlipzonBackEnd</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>com.springmvc.demo</groupId>
+	<artifactId>FlipzonBackEnd</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>FlipzonBackEnd</name>
-  <url>http://maven.apache.org</url>
+	<name>FlipzonBackEnd</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>5.3.3</spring.version>
 		<hibernate.version>5.2.7.Final</hibernate.version>
@@ -19,14 +20,15 @@
 	</properties>
 
 	<dependencies>
-		<!-- JUNIT VERSION 4.12 -->
+	<!-- Using the latest version of junit test case -->
+		<!-- JUNIT VERSION 4.13.1 -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 
 		<!-- SPRING -->
 		<dependency>
@@ -40,7 +42,15 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
+		<!-- Spring contexts are also called Spring IoC containers, which are responsible 
+			for instantiating, configuring, and assembling beans by reading configuration 
+			metadata from XML, Java annotations, and/or Java code in the configuration 
+			files. -->
+
+		<!-- The benefit of adding this is to manage the version of the added Spring 
+			dependencies from one place. With this, you can omit mentioning the version 
+			number for Spring dependencies. -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -52,62 +62,69 @@
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
 			<version>${spring.version}</version>
-		</dependency>		
-		
+		</dependency>
+
 		<!-- H2 Database -->
-<!--  		<dependency>
+		<!-- H2 is an open-source lightweight Java database. It can be embedded 
+			in Java applications or run in the client-server mode. H2 database can be 
+			configured to run as in-memory database, which means that data will not persist 
+			on the disk. -->
+		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>1.4.200</version>
 			<scope>runtime</scope>
-		</dependency>-->
+		</dependency>
 
 		<!-- MySQL Driver -->
 		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>${mysql.version}</version>
-		    <scope>runtime</scope>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+			<scope>runtime</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>5.5.4.Final</version>
-</dependency>
-		
-		
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.5.4.Final</version>
+		</dependency>
+
+
+<!-- 
+Connection pooling means that connections are reused rather than created each time a connection is requested. To facilitate connection reuse, a memory cache of database connections, called a connection pool, is maintained by a connection pooling module as a layer on top of any standard JDBC driver product. -->
+
 		<!-- Database Connection Pooling -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-dbcp2</artifactId>
-			<version>2.1.1</version>
+			<version>2.8.0</version>
 			<exclusions>
 				<exclusion>
 					<groupId>commons-logging</groupId>
 					<artifactId>commons-logging</artifactId>
 				</exclusion>
-			</exclusions>			
+			</exclusions>
 		</dependency>
-				
+
 		<!-- Jackson -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
 			<version>${jackson.version}</version>
-		</dependency>			
+		</dependency>
 
 
 		<!-- SLF4J Logging -->
@@ -115,28 +132,28 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 			<version>1.2.1</version>
-		</dependency>	
-		
+		</dependency>
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>jcl-over-slf4j</artifactId>
 			<version>1.7.24</version>
 		</dependency>
-		
+
 		<!-- Hibernate Validator -->
 		<dependency>
-		    <groupId>org.hibernate</groupId>
-		    <artifactId>hibernate-validator</artifactId>
-		    <version>5.4.1.Final</version>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>5.4.1.Final</version>
 		</dependency>
-			
+
 		<dependency>
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>
 			<version>1.1.0.Final</version>
 		</dependency>
 
-		
+
 	</dependencies>
 	<build>
 		<!-- Updated for the latest version of JAVA -->

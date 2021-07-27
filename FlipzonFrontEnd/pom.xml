@@ -19,7 +19,7 @@
 	<dependencies>
 
 
-		<!-- Link backend project -->
+		<!-- Linking backend project -->
 		<dependency>
 			<groupId>com.springmvc.demo</groupId>
 			<artifactId>FlipzonBackEnd</artifactId>

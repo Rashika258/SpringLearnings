@@ -18,6 +18,11 @@
 		other front controllers are -->
 	<context:component-scan
 		base-package="com.springmvc.flipzonfrontend.controller"></context:component-scan>
+		
+		<!--  let the spring framework know where to get that categoryDAO dependency from. Add an context
+element in dispatcher servlet to scan the packages in the backend. -->
+<context:component-scan
+		base-package="com.springmvc.demo.FlipzonBackEnd"></context:component-scan>
 
 	<!--Configure the ViewResolver inside the dispatcher-servlet to map the 
 		logical name to the actual physical filename. -->
