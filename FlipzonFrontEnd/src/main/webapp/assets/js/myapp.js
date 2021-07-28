@@ -51,7 +51,7 @@ $(function() {
 
 	// execute the below code only where we have this table
 	if ($table.length) {
-		// console.log('Inside the table!');
+		 console.log('Inside the table!');
 
 		var jsonUrl = '';
 		if (window.categoryId == '') {

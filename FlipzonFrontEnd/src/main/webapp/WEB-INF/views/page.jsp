@@ -35,6 +35,9 @@
     <!-- Add a small script element in the head section and create a new property with the name of menu in the window global object. -->
     <script type="text/javascript">
     	window.menu='${title}';
+    	
+    	//Modify the page.jsp file to add the contextRoot to window global object
+    	window.contextRoot='${contextRoot}';
     </script>
 
     <!-- Bootstrap Core CSS -->
@@ -43,6 +46,10 @@
     <!-- add a theme to the project download a theme from bootswatch.com -->
     <!-- Bootstrap Theme CSS -->
     <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
+    
+    <!-- Add the other files in the project which is required for making dataTable boostrapish -->
+       <!-- Bootstrap Datatable CSS -->
+    <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="${css}/myapp.css" rel="stylesheet">
@@ -68,23 +75,29 @@
 <!-- Page Content -->
         <!-- Section-->
         <!-- Wrap the page content section inside another div element -->
+        
         <div class="content">
-        <!-- receives it from the front controller here, pageController -->
-       <c:if test="${userClicksHome == true }">
-        <%@ include file="home.jsp" %>
-        </c:if>
-        
-        <c:if test="${userClicksAbout == true }">
-        <%@ include file="about.jsp" %>
-        </c:if>
-        
-        <c:if test="${userClicksContact == true }">
-        <%@ include file="contact.jsp" %>
-        </c:if>
-        
-        <c:if test="${userClickCategoryProducts == true or userClickAllProducts==true }">
-        <%@ include file="listProducts.jsp" %>
-        </c:if>
+		        <!-- receives it from the front controller here, pageController -->
+		       <c:if test="${userClicksHome == true }">
+		        <%@ include file="home.jsp" %>
+		        </c:if>
+		        
+		        <c:if test="${userClicksAbout == true }">
+		        <%@ include file="about.jsp" %>
+		        </c:if>
+		        
+		        <c:if test="${userClicksContact == true }">
+		        <%@ include file="contact.jsp" %>
+		        </c:if>
+		        
+		        <c:if test="${userClicksCategoryProducts == true or userClicksAllProducts==true }">
+		        <%@ include file="listProducts.jsp" %>
+		        </c:if>
+		        
+		        <c:if test="${userClicksShowProduct == true}">
+		        <%@ include file="singleProduct.jsp" %>
+		        </c:if>
+		        
         </div>
         
          <%@include file="./shared/footer.jsp" %>
@@ -94,6 +107,18 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="${js}/bootstrap.min.js"></script>
+    
+    <!--  From this website to download the jQuery DataTable plugin.
+				https://datatables.net/
+				 Add the jquery.dataTable.js file to the proper location and link it in our project master page in
+				proper order.
+     -->
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="${js}/jquery.dataTables.js"></script>
+    
+        <!-- Bootstrap Datatable JavaScript -->
+    <script src="${js}/dataTables.bootstrap.js"></script>
     
     <!-- Custom JavaScript -->
     <script src="${js}/scripts.js"></script>

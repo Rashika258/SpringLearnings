@@ -5,12 +5,12 @@
  */
 
 html {
-	height:100%; /* used because other elements in the page should know where to calculate the remaining percent from*/
+	height:100%;
 }
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    height:100%;/* used because other elements in the page should know where to calculate the remaining percent from*/
+    height:100%;
 }
 
 .slide-image {
@@ -65,10 +65,6 @@ footer {
 
 .wrapper {	
 	min-height:100%;
-	/*
-	An element with position: relative; is positioned relative to its normal position.
-Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
-*/
 	position: relative;
 }
 
@@ -80,20 +76,16 @@ Setting the top, right, bottom, and left properties of a relatively-positioned e
 
 .footer {
 	width:100%;
-	/*
-		An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
-		However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
-		Note: A "positioned" element is one whose position is anything except static.
-*/
 	position:absolute;
 	bottom:20px;
 	height: 60px;
 	
 }
 
+
 .dataTableImg {
 	
-	width:100px;
+	width:80px;
 	height: 100px;
 	
 }

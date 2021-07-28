@@ -30,6 +30,9 @@
 		</dependency>
 
 
+
+	<!-- We will be excluding the commomns-logging from the spring-core as well as from the commons dbcp2 in backend project to use slf4j -->
+
 		<!-- SPRING -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -100,6 +103,9 @@
 <!-- 
 Connection pooling means that connections are reused rather than created each time a connection is requested. To facilitate connection reuse, a memory cache of database connections, called a connection pool, is maintained by a connection pooling module as a layer on top of any standard JDBC driver product. -->
 
+
+<!-- We will be excluding the commons-logging from the spring-core as well as from the commons dbcp2 in backend project to use slf4j -->
+
 		<!-- Database Connection Pooling -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -112,6 +118,10 @@ Connection pooling means that connections are reused rather than created each ti
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<!-- To get the product in JSON format we need to have a converter in the classpath for achieving this we
+will be adding new dependencies in backend project
+		 -->
 
 		<!-- Jackson -->
 		<dependency>
@@ -126,6 +136,8 @@ Connection pooling means that connections are reused rather than created each ti
 			<version>${jackson.version}</version>
 		</dependency>
 
+
+	<!-- The Simple Logging Facade for Java (SLF4J) serves as a simple facade or abstraction for various logging frameworks, such as java.util.logging, logback and log4j. SLF4J allows the end-user to plug in the desired logging framework at deployment time. -->
 
 		<!-- SLF4J Logging -->
 		<dependency>

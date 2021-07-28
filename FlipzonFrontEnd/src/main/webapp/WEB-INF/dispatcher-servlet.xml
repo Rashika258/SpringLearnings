@@ -17,7 +17,7 @@
 	<!-- context is added to let the other dispatcher servlet know where the 
 		other front controllers are -->
 	<context:component-scan
-		base-package="com.springmvc.flipzonfrontend.controller"></context:component-scan>
+		base-package="com.springmvc.flipzonfrontend"></context:component-scan>
 		
 		<!--  let the spring framework know where to get that categoryDAO dependency from. Add an context
 element in dispatcher servlet to scan the packages in the backend. -->

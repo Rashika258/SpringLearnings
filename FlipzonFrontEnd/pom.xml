@@ -43,6 +43,9 @@
 			<scope>test</scope>
 		</dependency>
 
+
+	<!-- We will be excluding the commons-logging from the spring-core as well as from the commons dbcp2 in backend project to use slf4j -->
+
 		<!-- SPRING -->
 		<dependency>
 			<groupId>org.springframework</groupId>
