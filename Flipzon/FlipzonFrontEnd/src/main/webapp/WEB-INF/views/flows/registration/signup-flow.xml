@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow.xsd">
+                          
+                          
+<var name="user" class="com.springmvc.demo.FlipzonBackEnd.dto.User"></var>
+<var name="billing" class="com.springmvc.demo.FlipzonBackEnd.dto.Address"></var>
+
+
+<!-- returning and adding inside the flow of registerModel instance -->
+<on-start>
+	<evaluate expression="registerHandler.init()" result="flowScope.registerModel"></evaluate>
+</on-start>
+
+
+<!-- is the start state  passing the user class which is declared above-->
+<view-state id="personal" view="flows/registration/signup-personal" model="user">
+	<transition on="billing" to="validate"></transition>
+	<!-- On exit of each state store the flow instance inside the register model. -->
+	<on-exit>
+		<evaluate expression="registerHandler.addUser(flowScope.registerModel, user)"></evaluate>
+	</on-exit>
+</view-state>
+
+<!-- . Create all the views for the flow and add the view-state element inside the flow. -->
+<view-state id="billing" view="flows/registration/signup-billing" model="billing">
+		<transition on="personal" to="personal"></transition>
+			<transition on="confirm" to="confirm"></transition>
+			<on-exit>
+		<evaluate expression="registerHandler.addBilling(flowScope.registerModel, billing"></evaluate>
+		</on-exit>
+</view-state>
+
+<action-state id="validate">
+<evaluate expression="registerHandler.validateUser(user, messageContext)"></evaluate>
+<transition on="success" to="billing"></transition>
+<transition on="failure" to="personal"></transition>
+</action-state>
+
+<view-state id="confirm" view="flows/registration/signup-confirm" model="flowScope.registerModel">
+	<transition on="personal" to="personal"></transition>
+			<transition on="billing" to="billing"></transition>
+	<transition on="submit" to="submit"></transition>
+</view-state>
+
+<!--  Create an action state that will be called once the user submit the details. -->
+<action-state id="submit">
+	<evaluate expression="registerHandler.saveAll(flowScope.registerModel)"></evaluate>
+	<transition on="success" to="success"></transition>
+</action-state>
+
+
+<!-- Add the global transition to move to the home and end the state.-->
+ <!-- Go to home using on and to, to will call end state -->
+ <!-- Add the end state for home so that we can cancelled the guided navigation and redirect the user to
+home.  -->
+<!-- End state -->
+<end-state id="home" view="externalRedirect:contextRelative:/"></end-state>
+
+<end-state id="success" view="flows/registration/signup-success"></end-state>
+
+
+ <!-- Global Transition -->
+ <global-transitions>
+ 		<transition on="home" to="home" validate="false"></transition>
+ </global-transitions>
+
+
+</flow>

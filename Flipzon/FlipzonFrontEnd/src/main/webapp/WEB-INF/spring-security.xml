@@ -1,0 +1,74 @@
+<beans:beans
+	xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/security
+		http://www.springframework.org/schema/security/spring-security.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:component-scan
+		base-package="com.springmvc.demo.FlipzonBackEnd" />
+	
+	<!-- Add a bean element to the spring-security.xml file with the fully qualified name -->
+	<beans:bean id="passwordEncoder"
+		class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
+
+<!-- a separate http element to allow loading of static resources which does not require any form of
+security.
+ -->
+	<http pattern="/resources/**" security="none" />
+
+<!--  Specify the roles for accessing the specific part of the application. -->
+	<http>
+		<!-- only admin access -->
+		<intercept-url pattern="/manage/**"
+			access="hasAuthority('ADMIN')" />
+
+		<!-- only user access (who is registered) -->
+		<intercept-url pattern="/cart/**"
+			access="hasAuthority('USER')" />
+
+		<!-- rest of the world -->
+		<intercept-url pattern="/**" access="permitAll" />
+		
+		<!-- disable the csrf protection (not recommended
+		<csrf disabled="true"/>-->
+ 
+		<!-- We are going to provide a custom login page at a request mapping of /login for this we will have to use the login-page attribute. -->
+		<!-- separate intercept-url pattern for displaying the login page.
+		 -->
+		<form-login login-page="/login" />
+		
+		<!-- Add the access-denied-handler element with the error-page attribute -->
+		<access-denied-handler
+			error-page="/access-denied" />
+	</http>
+
+
+	<!-- Provide the authentication manager and authentication provider which 
+		uses difference in built services to authenticate and authorize a user -->
+	<authentication-manager>
+		<authentication-provider>
+		
+		<!-- add a new jdbc-user-service element and assign values to the three important attributes of it that is
+													data-source-ref
+													authorities-by-username-query
+													users-by-username-query
+		 -->
+		
+		<!-- Since we are using hashed password now we have to decode the password that was encoded for this
+we will use the pasword-encoder element inside the authentication provider. -->
+			<password-encoder ref="passwordEncoder" />
+			
+			<jdbc-user-service data-source-ref="dataSource"
+				authorities-by-username-query="select email, role from user where email = ?"
+				users-by-username-query="select email, password, enabled from user where email = ?" />
+		</authentication-provider>
+	</authentication-manager>
+
+
+</beans:beans>

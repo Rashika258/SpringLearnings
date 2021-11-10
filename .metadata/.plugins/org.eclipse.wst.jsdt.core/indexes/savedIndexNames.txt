@@ -2,13 +2,9 @@ INDEX VERSION 1.4+D:\1.Rashika\1.Workspaces\SpringWorkspace\.metadata\.plugins\o
 21323485.index
 2685229775.index
 3610099447.index
-3266589164.index
-3768636313.index
 2683538577.index
-3060469178.index
 2790165396.index
 1487753931.index
 937642692.index
 1361424168.index
-1939861836.index
 1730410352.index
